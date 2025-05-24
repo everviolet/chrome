@@ -33,7 +33,7 @@ jobs:
 
       - name: Package extensions
         run: |
-          zip -r extensions.zip dist/
+          cd dist && zip -r ../extensions.zip ./*
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
