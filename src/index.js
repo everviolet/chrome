@@ -31,7 +31,7 @@ for (const shade of ["Fall", "Spring", "Winter", "Summer"]) {
         tab_background_text_incognito_inactive: Colors.Fall.subtext0,
         tab_text: Colors[shade].subtext1,
         toolbar: Colors[shade].base,
-        toolbar_button_icon: Colors[shade].overlay0,
+        toolbar_button_icon: Colors[shade].subtext0,
         omnibox_text: Colors[shade].text,
         omnibox_background: Colors[shade].mantle,
       },
