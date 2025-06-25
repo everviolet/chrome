@@ -8,7 +8,7 @@ function convertHEXToRGBIntegerArray(hex) {
   );
 }
 
-for (const shade of ["Fall", "Spring", "Winter", "Summer"]) {
+for (const shade of ["fall", "spring", "winter", "summer"]) {
   const manifest = {
     manifest_version: 3,
     name: `Evergarden Chrome Theme - ${shade}`,
